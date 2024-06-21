@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyEdu"
+        tools:targetApi="31">
+        <activity
+            android:name=".Kimia"
+            android:exported="false" />
+        <activity
+            android:name=".PKN"
+            android:exported="false" />
+        <activity
+            android:name=".detail_bing1"
+            android:exported="false" />
+        <activity
+            android:name=".Bindonesia"
+            android:exported="false" />
+        <activity
+            android:name=".Binggris"
+            android:exported="false" />
+        <activity
+            android:name=".ChildKelas12"
+            android:exported="false" />
+        <activity
+            android:name=".Kelas12"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMapel"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false" /> <!-- Start Activity -->
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Login Activity -->
+        <activity
+            android:name=".Login"
+            android:exported="true" /> <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Kelas 10 -->
+        <activity
+            android:name=".Kelas10"
+            android:exported="true" /> <!-- Kelas 11 -->
+        <activity
+            android:name=".Kelas11"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

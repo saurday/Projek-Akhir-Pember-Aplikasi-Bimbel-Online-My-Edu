@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Edu</string>
+    <string name="deskripsi1">My Edu adalah aplikasi pembelajaran online inovatif yang dirancang untuk memfasilitasi proses belajar-mengajar secara efektif dan interaktif. Raih prestasi dan semangat belajar kamu dengan My Edu\n</string>
+    <string name="logo">logo</string>
+    <string name="descPel">Mata pelajaran matematika adalah studi tentang struktur, pola, dan hubungan melalui penggunaan angka dan simbol. Siswa mempelajari konsep-konsep dasar seperti aritmetika, aljabar, geometri, dan kalkulus, yang merupakan dasar untuk memahami fenomena alam, teknologi, dan ekonomi. Matematika mengembangkan keterampilan berpikir logis dan analitis, memungkinkan siswa untuk memecahkan masalah kompleks, membuat prediksi berdasarkan data, dan memahami abstraksi yang mendasari banyak aspek kehidupan sehari-hari. Selain itu, matematika membentuk fondasi penting untuk berbagai disiplin ilmu lainnya, termasuk fisika, teknik, ilmu komputer, dan statistik, menjadikannya esensial dalam dunia pendidikan dan penelitian.</string>
+
+</resources>
